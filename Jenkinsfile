@@ -13,7 +13,7 @@ pipeline{
         stage('Clone git repo')
         {
             steps{
-                git '${repoName}'
+                git 'https://github.com/Sonal0409/DevOpsCodeDemo.git'
             }
         }
         stage('Compile the code')
